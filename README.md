@@ -135,3 +135,6 @@ Find below the list of all variables currently processed:
 | peak_diastolic_velocity_radial_1 to peak_diastolic_velocity_radial_16 | Peak diastolic radial velocity in 16 segments of the left ventricle |
 | peak_diastolic_velocity_circumferential_1 to peak_diastolic_velocity_circumferential_16 | Peak diastolic circumferential velocity in 16 segments of the left ventricle |
 | peak_diastolic_velocity_longitudinal_1 to peak_diastolic_velocity_longitudinal_16 | Peak diastolic longitudinal velocity in 16 segments of the left ventricle |
+
+# About
+This was developed by me (Giandomenico Bisaccia) as part of a PhD project at the University of Chieti-Pescara, Italy and Royal Brompton and Harefield Hospitals, London, UK. To learn more about my work and get in touch, please visit my [website](https://bisacciamd.com).
