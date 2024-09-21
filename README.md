@@ -8,6 +8,21 @@
 - 👨🏻‍🍳 puts them into an R data.frame, and
 - 🛜 makes the data.frame ready for upload to a RedCAP server.
 
+# Table of Contents
+
+- [Tutorial](#tutorial)
+  - [Prerequisites](#prerequisites)
+  - [Step 1: Launch the App](#step-1-launch-the-app)
+  - [Step 2: Upload Files](#step-2-upload-files)
+  - [Step 3: Process the Files](#step-3-process-the-files)
+  - [Step 4: Download the Processed Data](#step-4-download-the-processed-data)
+  - [Step 5: View Raw CMR Data (Optional)](#step-5-view-raw-cmr-data-optional)
+  - [Step 6: View Patient Names (Optional)](#step-6-view-patient-names-optional)
+  - [Notes](#notes)
+- [Variables processed](#variables-processed)
+- [About](#about)
+
+
 # Tutorial
 
 cviBaker is a Shiny app that processes XML reports exported from CVi42 and creates a CSV file suitable for upload to a paired REDCap server. This tutorial will guide you through the steps to use this app.
