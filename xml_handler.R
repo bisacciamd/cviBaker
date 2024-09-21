@@ -1311,7 +1311,7 @@ toredcap$record_id <- toredcap$record_id
 
 # Save output_data to a file or database
 #source("var_handler.r")
-write_csv(toredcap, "toredcap_nanull.csv", na = "")
+write_csv(toredcap, "raw/toredcap_nanull.csv", na = "")
 
 common_vars <- intersect(names(toredcap), names(cmr))
 cmrdata <- toredcap[, common_vars]
