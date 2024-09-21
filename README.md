@@ -24,10 +24,14 @@ Before using cviBaker, ensure that you have the following:
 1. Open RStudio and navigate to the directory where the `app.R` file is located.
 2. Open the `app.R` file and click the "Run App" button in the top-right corner of the script editor pane.
 
+<img width="826" alt="image" src="https://github.com/user-attachments/assets/4efc1c62-2589-4042-a5e8-b293129a558f">
+
 ## Step 2: Upload Files
 
 1. In the sidebar panel, click the "Browse..." button next to "1. Upload Redcap Data Import Template (csv)" and select the REDCap Data Import Template CSV file.
 2. Click the "Browse..." button next to "2. Select CMR Reports (xml)" and select one or more XML reports exported from CVi 42.
+
+<img width="1033" alt="image" src="https://github.com/user-attachments/assets/92b13ad9-e178-4f25-98a9-d6c36db44259">
 
 ## Step 3: Process the Files
 
