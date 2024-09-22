@@ -33,7 +33,7 @@ Before using cviBaker, ensure that you have the following:
 
 1. R and RStudio installed on your system.
 2. The necessary R packages installed (`shiny`, `shinyWidgets`, `shinyjs`, `dplyr`, `gt`, `gtExtras`, `gtsummary`, `bslib`, and `readr`).
-3. A REDCap Data Import Template (CSV file) for the project you want to upload data to.
+3. A [compatible](compatibility.md) REDCap Data Import Template (CSV file) for the project you want to upload data to.
 4. XML reports exported from CVi 42 for the studies you want to process.
 
 ## Step 1: Launch the App
