@@ -25,7 +25,7 @@
 
 # Tutorial
 
-cviBaker is a Shiny app that processes XML reports exported from CVi42 and creates a CSV file suitable for upload to a paired REDCap server. This tutorial will guide you through the steps to use this app.
+cviBaker is a Shiny app that processes cardiac magnetic resonance imaging (CMR) reports exported from CVi42 and creates a CSV file suitable for upload to a paired REDCap server. This tutorial will guide you through the steps to use this app.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ Before using cviBaker, ensure that you have the following:
 1. R and RStudio installed on your system.
 2. The necessary R packages installed (`shiny`, `shinyWidgets`, `shinyjs`, `dplyr`, `gt`, `gtExtras`, `gtsummary`, `bslib`, and `readr`).
 3. A [compatible](compatibility.md) REDCap Data Import Template (CSV file) for the project you want to upload data to.
-4. XML reports exported from CVi 42 for the studies you want to process.
+4. XML reports exported from CVi 42 for CMR studies you want to process.
 
 ## Step 1: Launch the App
 
@@ -72,7 +72,7 @@ Before using cviBaker, ensure that you have the following:
 
 ## Notes
 
-- Make sure to comply with any local regulations on the use of patient data by properly anonymizing studies on CVi prior to exporting or uploading the XML files.
+- Make sure to comply with any local regulations on the use of patient data by properly anonymizing CMR studies on CVi prior to exporting or uploading the XML files.
 - The app assumes that the XML files are exported from CVi 42 and follow the expected structure.
 - The `process_xml.sh` and `xml_handler.R` scripts are required for the app to function correctly. These scripts should be located in the same directory as the `app.R` file.
 
