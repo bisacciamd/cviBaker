@@ -1,7 +1,7 @@
 # RedCAP CSV template Compatibility
 - For CViBaker to work, you need to feed the app with a compatible CSV file. 
 - This means that the CSV file must be generated from a REDCap project including any of the variables listed in the table below. 
-- An example [template file](redcap_template.csv) is provided with the repository.
+- An example [template file](RedCAP/Example_template.csv) and [data dictionary](RedCAP/Example_DataDictionary.csv) are provided with the repository.
 
 | Variable Name | Description |
 |----------------|--------------|
